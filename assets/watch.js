@@ -4,7 +4,7 @@
   var link = document.getElementById("ctaLink");
   if (link) link.textContent = phrases[Math.floor(Math.random() * phrases.length)];
 
-  var VIDEO_ID = "mTmdqUJH1";
+  var VIDEO_ID = "";
   if (!VIDEO_ID) return;
 
   var player    = document.getElementById("player");
